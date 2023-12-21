@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai teja bodala's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   
+
+</head>
+<body>
+<div id="header">
+<div class="container">
+<nav>
+    <img src="./images/logo-2.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i id="closeicon" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i id="openicon" class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<div class="header-text">
+<p>UX Designer/WEB Developer</p>
+<h1>Namaste, I'm <span>Sai teja</span> <br>bodala from United States</h1>
+
+</div>
+
+</div>
+</div>
+<!----ABOUT------>
+<div id="about">
+    <div class="conatiner">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/USERIMG.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Im working on Web Development and Ux Designing where 
+                   i have developed and designed web-applications from scratch 
+                   and i had learn frameworks like react to build light and 
+                   flexible Web-Applications. concentrated on development 
+                   principles and practical concepts.
+            </p>
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UX</span><br>Designing Web/Application <br>Prototyping<br>Wireframing</li>
+                    <li><span>Back-end Development </span><br>Node JS<br>Express JS<br>Java<br>Python</li>
+                    <li><span>Front-end Development</span><br>React JS<br>Java script<br>Bootstrap<br>HTML<br>CSS</li>
+                    <li><span>Miscellaneous</span><br>Github<br>Vs code<br>Figma<br>phtotshop<br>canva</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-2022</span><br>Web Developer at Spaceage Infotech-18 months</li>
+                    
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023</span><br>Ms in IT from Valparaiso University</li>
+                  
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!---services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>im a web designer ready to showcase my skills here and develop some website's.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UX Design</h2>
+                <p>im here to Design the elements of website through user experience fundamentals.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React</h2>
+                <p>I have developing more scalable single way applications using react which are fast and flexible.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----portfolio------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png">
+                <div class="layer">
+                    <h3>capstone project 1</h3>
+                    <p>This project is developed using frameworks like React, language used python</p>
+                    <a href="https://blog-storm.vercel.app/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png">
+                <div class="layer">
+                    <h3>Cloud app</h3>
+                    <p>I have devloped this website with html,css and bootstrap framwork's</p>
+                    <a href="https://bsteja123.github.io/cloud-connect/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png">
+                <div class="layer">
+                    <h3>Mern Stack Project</h3>
+                    <p>Loading.......</p>
+                    <a href="Project in development"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------------contact-------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> bstejachowdary@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (+1)2199169432</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sai-teja-bodala-17b520250/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/saiteja_bodala/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.facebook.com/Saitejavaru"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/bsteja123?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./images/Sai teja resume webdvlp.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> sai teja. Made with <i class="fa-solid fa-heart"></i> by Sai teja bodala</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+ 
+    function opentab(tabname){
+     for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+     }
+     for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+ 
+     // Add the active class to the clicked tab
+     document.querySelector(`#${tabname}`).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+ </script>
+   
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwz8yEV7ycPdAGjthq3XcQJYlYShVW6u3xlCInNgQmdw7qycO7hx-FvDF7Hsxu0-dEenA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+<script>
+    var feedbackCount = 0;
+    var likedCount = 0;
+
+    function submitFeedback(isLiked) {
+        feedbackCount++;
+        if (isLiked) {
+            likedCount++;
+        }
+        updateFeedbackPercentage();
+    }
+
+    function updateFeedbackPercentage() {
+        var percentage = likedCount / feedbackCount * 100;
+        document.getElementById("likePercentage").innerText = percentage.toFixed(2) + "%";
+    }
+</script>
+
+
+
+</body>
+</html>
